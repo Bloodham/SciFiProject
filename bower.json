@@ -1,0 +1,23 @@
+{
+  "name": "comp2068-lesson-04",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Patrick Ross <patr9240@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/patr9240/AdvancedWebLab3",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.0",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.5.0"
+  }
+}
