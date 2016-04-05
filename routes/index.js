@@ -3,24 +3,22 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Home' });
+  res.render('index', { title: 'Welcome to the I.F Home Page!' });
 });
 
 /* GET about page. */
-router.get('/about', function(req, res, next) {
-  res.render('index', { title: 'About Me' });
+router.get('/heroes', function(req, res, next) {
+  res.render('heroes', { title: 'Our Heroes' });
 });
 
 /* GET contact page. */
 router.get('/contact', function(req, res, next) {
-  res.render('contact', { title: 'Contact Me' });
+  res.render('contact', { title: 'Contact us today !' });
 });
 
-router.get('/projects', function(req, res, next) {
-  res.render('projects', { title: 'project Me' });
+router.get('/technology', function(req, res, next) {
+  res.render('technology', { title: 'Our Technology!' });
 });
 
-router.get('/services', function(req, res, next) {
-  res.render('services', { title: 'Service Me' });
-});
+
 module.exports = router;
