@@ -3,12 +3,35 @@ html{
 }
 
 body{
-	font-size: 100%;
+	font-size: 150%;
 	font-family:sans-serif;
 	color: #333;
-	width: 750px;
+	width: 1200px;
 	background-color: white;
 	margin: 20px auto;
 	padding: 2em 2em 4em 2em; 
 	border-radius: 4px; 
+    
 }
+
+h1{
+    font-family:sans-serif;
+    text-align: center;
+}
+#h2{
+    text-decoration: underline;
+}
+#h3{
+    text-decoration: underline;
+}
+h3{
+    font-family:sans-serif;
+    text-align: center;
+    font-size: 200%;
+    font-weight: bold;
+}
+p{
+    text-align: left;
+}
+
+
